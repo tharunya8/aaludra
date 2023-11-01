@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Application Form
+    </title>
+    <body>
+        <h2>Login</h2>
+      
+        <form action="/action_page.php">
+        <label for="fname">User Name:</label><br>
+        <input type="text" placeholder="tharunya" autofocus autocomplete="on"><br>
+        <label for="department">department:</label><br>
+        <input type="text" placeholder="cse" autocomplete="on"><br>
+        <br>
+        
+            <input list="programs" name="programs">
+        <datalist id="programs">
+            <option value="c">
+            <option value="c++">
+            <option value="java">
+            <option value="javascript">
+            <option value="ruby">
+        </datalist>
+   
+        <input type="file" name="file" id="file">
+        <input type="submit" name="submit">
+        <input type="reset" name="reset" >
+
+        <p>
+            Here is your account details ,<strong>recheck</strong> once you filled out the password!! 
+        </p>
+    </body>
+</html>
